@@ -1,9 +1,10 @@
 repositories{
   mavenCentral()
+  maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-   implementation 'com.commit451:PhotoView:1.2.4'
+   implementation 'com.github.chrisbanes:PhotoView:2.3.0'
    implementation 'com.squareup.picasso:picasso:2.71828'
 }
 
